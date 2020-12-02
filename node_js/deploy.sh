@@ -1,5 +1,5 @@
 # Directory Switch
-cd ./node-server
+cd ./COMON-Back-End-Node
 
 # Git Pull
 git pull
