@@ -1,5 +1,5 @@
 # Directory Switch
-cd ./${node_express_path}
+cd ./node-server
 
 # Git Pull
 git pull
