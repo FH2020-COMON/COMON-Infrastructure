@@ -1,5 +1,5 @@
 # Switch Directory
-cd ./${spring_path}
+cd ./COMON-Back-End-Spring
 
 # Git Pull
 git pull
@@ -14,4 +14,4 @@ chmod +x gradlew
 sudo docker build -t spring .
 
 # Deploy Docker Image
-docker run -p ${spring_port}:${spring_port} --network ${db_network_name} -d
+docker run -p 8000:$8080 --network db -d
