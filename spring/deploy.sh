@@ -1,5 +1,5 @@
 # Switch Directory
-cd ./COMON-Back-End-Spring
+cd ~/COMON-Back-End-Spring
 
 # Git Pull
 git pull

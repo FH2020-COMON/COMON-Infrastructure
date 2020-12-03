@@ -1,5 +1,5 @@
 # Directory Switch
-cd ./COMON-Back-End-Node
+cd ~/COMON-Back-End-Node
 
 git fetch
 
