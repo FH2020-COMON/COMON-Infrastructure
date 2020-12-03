@@ -1,9 +1,6 @@
 # Switch Directory
 cd ~/COMON-Back-End-Spring
 
-# Git Pull
-git pull
-
 # chmod
 chmod +x gradlew
 
@@ -14,6 +11,9 @@ target=$(git rev-parse origin/main)
 echo $target
 
 if [$local != $target] then
+    # Git Pull
+    git pull
+
     # Build Gradle
     echo "Gradle build.."
     ./gradlew clean build -x test
