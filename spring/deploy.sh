@@ -14,4 +14,4 @@ chmod +x gradlew
 sudo docker build -t spring .
 
 # Deploy Docker Image
-docker run -p 8000:$8080 --network db -d
+docker run -p 8000:8080 --network db -d
