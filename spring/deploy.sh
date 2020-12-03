@@ -13,7 +13,8 @@ echo $local
 target=$(git rev-parse origin/main)
 echo $target
 
-if [$local != $target] then
+if [$local != $target]
+then
     # Build Gradle
     echo "Gradle build.."
     ./gradlew clean build -x test

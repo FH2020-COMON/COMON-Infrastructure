@@ -9,8 +9,8 @@ echo $local
 target=$(git rev-parse origin/main)
 echo $target
 
-if [$local != $target] then
-
+if [$local != $target]
+then
     # Git Pull
     echo "Pull from Git.."
     git pull
